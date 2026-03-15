@@ -1,0 +1,38 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="44" x2="1189" y2="581" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081C24"/>
+      <stop offset="1" stop-color="#133A4A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="310" y1="134" x2="1088" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2530"/>
+      <stop offset="1" stop-color="#09161D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="204" y1="151" x2="405" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB703"/>
+      <stop offset="1" stop-color="#FB8500"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <circle cx="1023" cy="117" r="166" fill="#1B4B5A" fill-opacity="0.34"/>
+  <circle cx="1128" cy="520" r="130" fill="#0A2D3C" fill-opacity="0.64"/>
+  <rect x="84" y="82" width="1112" height="476" rx="26" fill="#EAF4F4" fill-opacity="0.05" stroke="#A8DADC" stroke-opacity="0.14"/>
+  <rect x="640" y="132" width="488" height="374" rx="24" fill="url(#panel)" stroke="#3A707D" stroke-opacity="0.46"/>
+  <rect x="670" y="164" width="74" height="18" rx="9" fill="#1A5567"/>
+  <rect x="764" y="164" width="118" height="18" rx="9" fill="#1A5567"/>
+  <rect x="905" y="164" width="140" height="18" rx="9" fill="#1A5567"/>
+  <text x="676" y="218" fill="#D8F3DC" font-family="'Segoe UI', sans-serif" font-size="24" font-weight="700">ifoundyou github.com</text>
+  <text x="676" y="260" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">Host           github.com</text>
+  <text x="676" y="291" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">Primary IP     4.228.31.150</text>
+  <text x="676" y="322" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">Country        Brazil</text>
+  <text x="676" y="353" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">Organization   Microsoft Corporation</text>
+  <text x="676" y="384" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">TLS            github.com / Sectigo</text>
+  <text x="676" y="415" fill="#A8DADC" font-family="'Cascadia Code', monospace" font-size="18">Maps           OpenStreetMap + Google Maps</text>
+  <text x="676" y="459" fill="#84DCC6" font-family="'Cascadia Code', monospace" font-size="16">Windows + Linux | DNS | Geo | SSL | JSON | Markdown</text>
+  <circle cx="230" cy="221" r="102" fill="url(#accent)"/>
+  <path d="M230 145C188.026 145 154 179.026 154 221C154 262.974 188.026 297 230 297C271.974 297 306 262.974 306 221C306 179.026 271.974 145 230 145ZM230 178.455C253.496 178.455 272.545 197.504 272.545 221C272.545 244.496 253.496 263.545 230 263.545C206.504 263.545 187.455 244.496 187.455 221C187.455 197.504 206.504 178.455 230 178.455ZM230 195.182C215.743 195.182 204.182 206.743 204.182 221C204.182 235.257 215.743 246.818 230 246.818C244.257 246.818 255.818 235.257 255.818 221C255.818 206.743 244.257 195.182 230 195.182Z" fill="#0D1B1E"/>
+  <path d="M230 314C190.236 314 158 346.236 158 386C158 410.614 170.356 432.341 189.218 445.333C201.5 417.375 228.886 397.818 260.909 397.818C277.201 397.818 292.288 402.878 304.727 411.505C309.129 403.811 312 394.908 312 386C312 346.236 279.764 314 240 314H230Z" fill="#A8DADC" fill-opacity="0.9"/>
+  <text x="160" y="497" fill="#F1FAEE" font-family="'Segoe UI', sans-serif" font-size="64" font-weight="800">IFoundYou</text>
+  <text x="160" y="539" fill="#CDEAE5" font-family="'Segoe UI', sans-serif" font-size="28">Cross-platform host intelligence for people who need answers fast.</text>
+</svg>
+

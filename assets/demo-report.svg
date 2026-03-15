@@ -1,0 +1,27 @@
+<svg width="1280" height="820" viewBox="0 0 1280 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="820" rx="22" fill="#0B1720"/>
+  <rect x="34" y="34" width="1212" height="752" rx="18" fill="#081118" stroke="#28424F"/>
+  <circle cx="74" cy="72" r="9" fill="#FF5F56"/>
+  <circle cx="102" cy="72" r="9" fill="#FFBD2E"/>
+  <circle cx="130" cy="72" r="9" fill="#27C93F"/>
+  <text x="171" y="80" fill="#A8C7D1" font-family="'Cascadia Code', monospace" font-size="22">python -m ifoundyou github.com</text>
+  <text x="70" y="128" fill="#7DD3FC" font-family="'Cascadia Code', monospace" font-size="24">IFoundYou Report</text>
+  <text x="70" y="165" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Input            github.com</text>
+  <text x="70" y="196" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Host             github.com</text>
+  <text x="70" y="227" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Primary IP       4.228.31.150</text>
+  <text x="70" y="258" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">IPv4             4.228.31.150</text>
+  <text x="70" y="313" fill="#FBBF24" font-family="'Cascadia Code', monospace" font-size="22">Location</text>
+  <text x="70" y="345" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Country          Brazil</text>
+  <text x="70" y="376" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Region           State of Sao Paulo</text>
+  <text x="70" y="407" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">City             Campinas</text>
+  <text x="70" y="438" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Google Maps      https://www.google.com/maps/search/?api=1&amp;query=...</text>
+  <text x="70" y="493" fill="#34D399" font-family="'Cascadia Code', monospace" font-size="22">Provider</text>
+  <text x="70" y="525" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">ISP              Microsoft Corporation</text>
+  <text x="70" y="556" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Organization     Microsoft Corporation</text>
+  <text x="70" y="587" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">ASN              8075</text>
+  <text x="70" y="642" fill="#F472B6" font-family="'Cascadia Code', monospace" font-size="22">TLS Certificate</text>
+  <text x="70" y="674" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Common Name      github.com</text>
+  <text x="70" y="705" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Issuer           Sectigo Public Server Authentication CA DV E36</text>
+  <text x="70" y="736" fill="#D2E7EE" font-family="'Cascadia Code', monospace" font-size="20">Valid To         Jun 3 23:59:59 2026 GMT</text>
+</svg>
+
