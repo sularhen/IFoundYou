@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 STAGING = DIST / "release-staging"
-VERSION = "2.0.0"
+VERSION = "2.0.1"
 
 
 def run(command: list[str]) -> None:
@@ -50,6 +50,7 @@ def package_windows() -> Path:
     reset_dir(win_root)
     copy_common_files(win_root)
     shutil.copy2(ROOT / "whereareyou.ps1", win_root / "whereareyou.ps1")
+    shutil.copy2(ROOT / "ifoundyou.cmd", win_root / "ifoundyou.cmd")
     shutil.copy2(ROOT / "release" / "install-windows.ps1", win_root / "install.ps1")
 
     archive = DIST / f"ifoundyou-windows-{VERSION}.zip"
@@ -67,6 +68,7 @@ def package_linux() -> Path:
     linux_root = STAGING / f"ifoundyou-linux-{VERSION}"
     reset_dir(linux_root)
     copy_common_files(linux_root)
+    shutil.copy2(ROOT / "ifoundyou", linux_root / "ifoundyou")
     shutil.copy2(ROOT / "whereareyou.sh", linux_root / "whereareyou.sh")
     shutil.copy2(ROOT / "release" / "install-linux.sh", linux_root / "install.sh")
 

@@ -2,11 +2,25 @@
 
 # IFoundYou
 
-`IFoundYou` is a practical host-inspection CLI for Windows and Linux. Give it an IP, domain, or full URL and it turns that target into a readable report with DNS resolution, geolocation context, provider data, TLS certificate details, map links, JSON output, and Markdown exports.
+`IFoundYou` is a practical host-inspection CLI for Windows and Linux. Once installed, you use it like a normal command: `ifoundyou <ip-or-domain>`. It turns that target into a readable report with DNS resolution, geolocation context, provider data, TLS certificate details, map links, JSON output, and Markdown exports.
 
 It started as a tiny bash geolocation script. This new version keeps the original spirit, but upgrades it into a real tool that people can use for support work, homelabs, blue-team triage, bug reports, web diagnostics, and quick network sanity checks.
 
 ![IFoundYou demo report](assets/demo-report.svg)
+
+## Usage
+
+```bash
+ifoundyou <ip-or-domain>
+```
+
+Examples:
+
+```bash
+ifoundyou 8.8.8.8
+ifoundyou github.com
+ifoundyou https://openai.com
+```
 
 ## Why this is useful
 
@@ -68,6 +82,12 @@ For simple downloads outside git, the project is prepared for two release artifa
 .\install.ps1
 ```
 
+After installation, open a new terminal and use:
+
+```powershell
+ifoundyou github.com
+```
+
 ### Linux release
 
 1. Download and extract the `.tar.gz`.
@@ -77,6 +97,12 @@ For simple downloads outside git, the project is prepared for two release artifa
 ```bash
 chmod +x install.sh
 ./install.sh
+```
+
+After installation, use:
+
+```bash
+ifoundyou github.com
 ```
 
 ## Example commands
@@ -176,8 +202,8 @@ python scripts/build_release.py
 
 This generates:
 
-- `dist/ifoundyou-windows-2.0.0.zip`
-- `dist/ifoundyou-linux-2.0.0.tar.gz`
+- `dist/ifoundyou-windows-2.0.1.zip`
+- `dist/ifoundyou-linux-2.0.1.tar.gz`
 
 ## License
 
@@ -187,9 +213,23 @@ MIT
 
 # IFoundYou en Espanol
 
-`IFoundYou` es una CLI practica de inspeccion de hosts para Windows y Linux. Le pasas una IP, un dominio o una URL completa y la herramienta lo convierte en un reporte legible con resolucion DNS, contexto de geolocalizacion, datos del proveedor, detalles del certificado TLS, enlaces a mapas, salida JSON y exportaciones en Markdown.
+`IFoundYou` es una CLI practica de inspeccion de hosts para Windows y Linux. Una vez instalada, se usa como un comando normal: `ifoundyou <ip-o-dominio>`. Le pasas una IP, un dominio o una URL completa y la herramienta lo convierte en un reporte legible con resolucion DNS, contexto de geolocalizacion, datos del proveedor, detalles del certificado TLS, enlaces a mapas, salida JSON y exportaciones en Markdown.
 
 Nacio como un script bash pequeno de geolocalizacion. Esta nueva version mantiene la idea original, pero la convierte en una herramienta real para soporte, homelabs, triage defensivo, reportes de bugs, diagnostico web y comprobaciones rapidas de red.
+
+## Uso
+
+```bash
+ifoundyou <ip-o-dominio>
+```
+
+Ejemplos:
+
+```bash
+ifoundyou 8.8.8.8
+ifoundyou github.com
+ifoundyou https://openai.com
+```
 
 ## Por que esto es util
 
@@ -251,6 +291,12 @@ Para descargas sencillas fuera de git, el proyecto ya esta preparado con dos art
 .\install.ps1
 ```
 
+Despues de instalar, abre una terminal nueva y usa:
+
+```powershell
+ifoundyou github.com
+```
+
 ### Release para Linux
 
 1. Descarga y extrae el `.tar.gz`.
@@ -260,6 +306,12 @@ Para descargas sencillas fuera de git, el proyecto ya esta preparado con dos art
 ```bash
 chmod +x install.sh
 ./install.sh
+```
+
+Despues de instalar, usa:
+
+```bash
+ifoundyou github.com
 ```
 
 ## Comandos de ejemplo
@@ -359,8 +411,8 @@ python scripts/build_release.py
 
 Esto genera:
 
-- `dist/ifoundyou-windows-2.0.0.zip`
-- `dist/ifoundyou-linux-2.0.0.tar.gz`
+- `dist/ifoundyou-windows-2.0.1.zip`
+- `dist/ifoundyou-linux-2.0.1.tar.gz`
 
 ## Licencia
 

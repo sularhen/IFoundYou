@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ifoundyou"
-version = "2.0.0"
+version = "2.0.1"
 description = "Cross-platform IP, domain and URL inspection CLI for fast network context."
 readme = "README.md"
 requires-python = ">=3.10"
