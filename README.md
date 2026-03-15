@@ -51,6 +51,34 @@ chmod +x whereareyou.sh
 ./whereareyou.sh github.com
 ```
 
+## Releases
+
+For simple downloads outside git, the project is prepared for two release artifacts:
+
+- `ifoundyou-windows-<version>.zip`
+- `ifoundyou-linux-<version>.tar.gz`
+
+### Windows release
+
+1. Download and extract the `.zip`.
+2. Open PowerShell inside the extracted folder.
+3. Run:
+
+```powershell
+.\install.ps1
+```
+
+### Linux release
+
+1. Download and extract the `.tar.gz`.
+2. Open a terminal inside the extracted folder.
+3. Run:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
 ## Example commands
 
 ```bash
@@ -139,6 +167,17 @@ usage: ifoundyou [-h] [--self] [--batch BATCH] [--json] [--save SAVE]
 ```bash
 python -m unittest discover -s tests -v
 ```
+
+To build release artifacts locally:
+
+```bash
+python scripts/build_release.py
+```
+
+This generates:
+
+- `dist/ifoundyou-windows-2.0.0.zip`
+- `dist/ifoundyou-linux-2.0.0.tar.gz`
 
 ## License
 
