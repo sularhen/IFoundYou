@@ -211,7 +211,7 @@ MIT
 
 ---
 
-# IFoundYou en Espanol
+# IFoundYou en Español
 
 `IFoundYou` es una CLI practica de inspeccion de hosts para Windows y Linux. Una vez instalada, se usa como un comando normal: `ifoundyou <ip-o-dominio>`. Le pasas una IP, un dominio o una URL completa y la herramienta lo convierte en un reporte legible con resolucion DNS, contexto de geolocalizacion, datos del proveedor, detalles del certificado TLS, enlaces a mapas, salida JSON y exportaciones en Markdown.
 
